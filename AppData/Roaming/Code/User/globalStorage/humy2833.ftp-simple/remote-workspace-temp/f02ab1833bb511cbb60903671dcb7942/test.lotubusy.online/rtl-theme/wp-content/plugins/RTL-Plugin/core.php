@@ -29,7 +29,9 @@ defined('ABSPATH') || exit;
         include 'LS_PLUGIN_INC' . 'admin/menu.php';
         include 'widget.php';
         include 'setting.php';
- 
+        include 'custom-setting.php';
+        include '1.php';
+  
         include 'MetaBox.php'; 
         include 'test1.php';
     }else {
